@@ -16,6 +16,8 @@ exec odoo \
     --db_user="${DB_USER}" \
     --db_password="${DB_PASSWORD}" \
     --database="${DB_NAME}" \
+    --init=base \
     --proxy-mode \
     --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons
+
 
