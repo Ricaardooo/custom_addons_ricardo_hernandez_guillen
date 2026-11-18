@@ -12,6 +12,8 @@ exec odoo \
     --db_port="${DB_PORT:-5432}" \
     --db_user="${DB_USER}" \
     --db_password="${DB_PASSWORD}" \
+    --database="${DB_NAME}" \
     --admin-passwd="${ODOO_MASTER_PASSWORD}" \
     --proxy-mode \
     --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons
+
